@@ -547,7 +547,7 @@ h1 {
 #container {
 	width: auto;
 	margin: 10px;
-	background: #FFF url(../images/container_bg.jpg) no-repeat right top / 40%;
+	//background: #FFF url(../images/container_bg.jpg) no-repeat right top / 40%;
 }
 
 /*ヘッダー（サイト名ロゴが入ったブロック）
@@ -633,7 +633,7 @@ h1 {
 #container {
 	width: auto;
 	margin: 10px;
-	background: #FFF url(../images/container_bg.jpg) no-repeat right top / 40%;
+	//background: #FFF url(../images/container_bg.jpg) no-repeat right top / 40%;
 }
 
 /*ヘッダー（サイト名ロゴが入ったブロック）
