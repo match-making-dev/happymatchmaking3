@@ -63,6 +63,7 @@ h1 {
 	margin: 0px auto;
 	background: #FFF url(../images/flower-back1308.jpg) no-repeat right top;	/*背景色と右上の植物の背景画像(リピートなし、右、上に配置)読み込み*/
 	border-radius: 10px;	/*角丸のサイズ*/
+	/*padding: 10px 10px 0px;	ボックス内の余白*/
 	padding: 10px 10px 0px;	/*ボックス内の余白*/
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);	/*影の設定。それぞれ右へ、下へ、ぼかし幅、色(左3つがRGBの色指定で一番右が透明度)の設定。*/
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);			/*同上*/
@@ -632,7 +633,8 @@ h1 {
 ---------------------------------------------------------------------------*/
 #container {
 	width: auto;
-	margin: 10px;
+	//margin: 10px;
+	margin: 00px;
 	/*background: #FFF url(../images/container_bg.jpg) no-repeat right top / 40%;*/
 }
 
