@@ -182,7 +182,7 @@ nav#menubar ul li a span {
 ---------------------------------------------------------------------------*/
 #contents {
 	clear: left;
-	//padding-top: 30px;
+	/*padding-top: 30px;*/
 	padding-top: 0px;
 	margin: 0px 10px;
 }
@@ -692,7 +692,8 @@ nav#menubar ul li:nth-child(odd) {
 ---------------------------------------------------------------------------*/
 #contents {
 	width: auto;
-	padding-top: 15px;
+	/*padding-top: 15px;*/
+	padding-top: 0px;
 	margin: 0px;
 }
 
