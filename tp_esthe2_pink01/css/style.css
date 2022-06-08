@@ -58,7 +58,8 @@ h1 {
 /*コンテナー（HPを囲むブロック）
 ---------------------------------------------------------------------------*/
 #container {
-	width: 970px;	/*コンテナー幅*/
+	/*width: 970px;	/*コンテナー幅*/
+width: 1200px;
 	margin: 0px auto;
 	background: #FFF url(../images/flower-back1308.jpg) no-repeat right top;	/*背景色と右上の植物の背景画像(リピートなし、右、上に配置)読み込み*/
 	border-radius: 10px;	/*角丸のサイズ*/
