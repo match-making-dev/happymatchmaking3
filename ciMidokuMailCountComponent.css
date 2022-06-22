@@ -30,6 +30,8 @@
     background-image: -webkit-gradient(radial, right top, 0, right top, 1020, color-stop(0, #EF0000), color-stop(1, #EF0000));
     background-image: -webkit-radial-gradient(right top, ellipse farthest-corner, #EF0000 0%, #EF0000 100%);
     background-image: radial-gradient(right top, ellipse farthest-corner, #EF0000 0%, #EF0000 100%);
+    top:0%;
+    left:75%;"
 }
 
 @-webkit-keyframes animation01 {
