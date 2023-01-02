@@ -90,7 +90,7 @@ a, a:link, a:active, a:visited, a:hover
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("https://happymatchmaking.herokuapp.com/menu_icon2.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/match-making-dev/happymatchmaking3@v0.1/menu_icon2.png");
 	background-size:42px 42px;
 	background-repeat: no-repeat;
 	background-position:5px 0px;
