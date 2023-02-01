@@ -6,17 +6,17 @@
 ---------------------------------------------------------------------------*/
 @media screen and (max-width:767px) {
 html {
-font-size: 12px;
+font-size: 62.5%;
 }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
 html {
-font-size: 14px;
+font-size: 87.5%;
 }
 }
 @media screen and (min-width:1024px) {
 html {
-font-size: 16px;
+font-size: 100%;
 }
 }
 
@@ -121,7 +121,7 @@ header address {
 header address .tel {
 	font-size: 1rem;	/*文字サイズ*/
 	/*color: #dd8aa3;		文字色*/
-	color: #000;
+	color: #f00;
 	font-weight: bold;	/*太字に*/
 	display: block;
 }
