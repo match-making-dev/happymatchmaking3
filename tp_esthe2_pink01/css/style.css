@@ -120,7 +120,8 @@ header address {
 /*電話番号の文字設定*/
 header address .tel {
 	font-size: 1rem;	/*文字サイズ*/
-	color: #dd8aa3;		/*文字色*/
+	/*color: #dd8aa3;		文字色*/
+	color: #000;
 	font-weight: bold;	/*太字に*/
 	display: block;
 }
