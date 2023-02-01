@@ -10,7 +10,7 @@ body {
 	/*background: radial-gradient(circle 500px at 30% 50px,#ebb3c4,#dd8aa3);	ロゴ背後の光*/
 	margin: 0px;
 	padding: 0px;
-	font: 10px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";	/*文字サイズ・行間、フォントファミリー*/
+	font: 14px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";	/*文字サイズ・行間、フォントファミリー*/
 	width: 100%;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure{
