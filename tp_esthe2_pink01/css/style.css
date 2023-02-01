@@ -5,7 +5,8 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body {
-	color: #666;	/*全体の文字色*/
+	/*color: #666;	全体の文字色*/
+	color: #000;	/*全体の文字色*/
 	background: #ffffff;	/*全体の背景色*/
 	/*background: radial-gradient(circle 500px at 30% 50px,#ebb3c4,#dd8aa3);	ロゴ背後の光*/
 	margin: 0px;
