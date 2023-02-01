@@ -5,11 +5,11 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 
-@media only screen and (max-width:767px) {
+
 html {
 font-size: 62.5%;
 }
-}
+
 
 @media only screen and (min-width:768px) and ( max-width:1024px) {
 html {
