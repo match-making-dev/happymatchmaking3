@@ -4,16 +4,37 @@
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
+@media only screen and (min-width:1024px){
+html {
+font-size: 100%;
+}
+}
+
+
+
+@media only screen and (min-width:768px) and ( max-width:1024px) {
+html {
+font-size: 87.5%;
+}
+}
+
+html {
+font-size: 62.5%;
+}
+
+
 body {
-	/*color: #666;	全体の文字色*/
-	color: #f00;	/*全体の文字色*/
+	color: #666;	/*全体の文字色*/
 	background: #ffffff;	/*全体の背景色*/
 	/*background: radial-gradient(circle 500px at 30% 50px,#ebb3c4,#dd8aa3);	ロゴ背後の光*/
 	margin: 0px;
 	padding: 0px;
-	font: 14px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";	/*文字サイズ・行間、フォントファミリー*/
+	font: 1rem "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";	/*文字サイズ・行間、フォントファミリー*/
 	width: 100%;
 }
+
+
+
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure{
 	margin: 0px;
 	padding: 0px;
@@ -93,7 +114,7 @@ header address {
 	position: absolute;
 	top: 20px;		/*ヘッダーブロックに対して上から20pxの位置に配置*/
 	right: 20px;	/*ヘッダーブロックに対して右から20pxの位置に配置*/
-	font-size: 11px;	/*文字サイズ*/
+	font-size: 1rem;	/*文字サイズ*/
 	text-align: right;	/*文字をセンタリング*/
 	line-height: 1.6;	/*行間*/
 	letter-spacing: 0.2em;	/*文字間隔を少し広めにとる設定*/
@@ -101,8 +122,9 @@ header address {
 }
 /*電話番号の文字設定*/
 header address .tel {
-	font-size: 18px;	/*文字サイズ*/
-	color: #dd8aa3;		/*文字色*/
+	font-size: 1rem;	/*文字サイズ*/
+	/*color: #dd8aa3;		文字色*/
+	color: #f0f;
 	font-weight: bold;	/*太字に*/
 	display: block;
 }
@@ -615,7 +637,7 @@ nav#menubar ul li:nth-child(odd) {
 
 /*その他
 ---------------------------------------------------------------------------*/
-/*<body class="s-n">指定の場合にsubブロックを表示させない設定*/
+/*body class="s-n"指定の場合にsubブロックを表示させない設定*/
 body.s-n #sub {
 	display: none;
 }
@@ -780,7 +802,7 @@ section#new h2.close {
 
 /*その他
 ---------------------------------------------------------------------------*/
-/*<body class="s-n">指定の場合にsubブロックを表示させない設定*/
+/*body class="s-n"指定の場合にsubブロックを表示させない設定*/
 body.s-n #sub {
 	display: none;
 }
