@@ -4,24 +4,6 @@
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
-@media screen and (max-width:480px){
-	html{
-		font-size: 62.5%;
-	}
-}
-
-@media screen and (min-width:769px) and (max-width:1024px) {
-	html{
-		font-size: 87.5%;
-	}
-}
-
-@media screen and (min-width:1025px) {
-	html{
-		font-size: 100%;
-	}
-}
-
 body {
 	color: #666;	/*全体の文字色*/
 	background: #ffffff;	/*全体の背景色*/
@@ -123,7 +105,7 @@ header address {
 header address .tel {
 	font-size: 1rem;	/*文字サイズ*/
 	/*color: #dd8aa3;		文字色*/
-	color: #00f;
+	color: #eee;
 	font-weight: bold;	/*太字に*/
 	display: block;
 }
