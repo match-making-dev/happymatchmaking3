@@ -124,7 +124,7 @@ header address {
 header address .tel {
 	font-size: 1rem;	/*文字サイズ*/
 	/*color: #dd8aa3;		文字色*/
-	color: #f00;
+	color: #f0f;
 	font-weight: bold;	/*太字に*/
 	display: block;
 }
@@ -637,7 +637,7 @@ nav#menubar ul li:nth-child(odd) {
 
 /*その他
 ---------------------------------------------------------------------------*/
-/*<body class="s-n">指定の場合にsubブロックを表示させない設定*/
+/*body class="s-n"指定の場合にsubブロックを表示させない設定*/
 body.s-n #sub {
 	display: none;
 }
@@ -802,7 +802,7 @@ section#new h2.close {
 
 /*その他
 ---------------------------------------------------------------------------*/
-/*<body class="s-n">指定の場合にsubブロックを表示させない設定*/
+/*body class="s-n"指定の場合にsubブロックを表示させない設定*/
 body.s-n #sub {
 	display: none;
 }
