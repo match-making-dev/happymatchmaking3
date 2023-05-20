@@ -2,13 +2,13 @@
 /**/
 @media screen and (max-width:768px){
 	html{
-		font-size: 82.5%;
+		font-size: 62.5%;
 	}
 }
 
 @media (min-width:768px) and (max-width:1024px) {
 	html{
-		font-size: 97.5%;
+		font-size: 87.5%;
 	}
 }
 
