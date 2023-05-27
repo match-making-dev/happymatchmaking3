@@ -1,6 +1,6 @@
 @charset "utf-8";
-/*
-$root-font-size: 16;
+
+/*$root-font-size: 16;*/
 @media screen and (max-width:768px){
 	html{
 		font-size: 62.5%;
@@ -17,7 +17,7 @@ $root-font-size: 16;
 	html{
 		font-size: 100%;
 	}
-}*/
+}
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
