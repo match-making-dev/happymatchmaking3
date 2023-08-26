@@ -1,12 +1,10 @@
 // Service Worker のバージョンとキャッシュする App Shell を定義する
 
-const NAME = 'qiita-post-app-v2-';
-const VERSION = '002';
+const NAME = 'EarnestHeart2-';
+const VERSION = '001';
 const CACHE_NAME = NAME + VERSION;
 const urlsToCache = [
-  './index.html',
-  './main.js',
-  './bootstrap.min.css',
+  'https://earnestheart2--dev2.sandbox.my.salesforce-sites.com/'
 ];
 
 // Service Worker へファイルをインストール
@@ -21,37 +19,3 @@ self.addEventListener('install', function (event) {
   );
 });
 
-// リクエストされたファイルが Service Worker にキャッシュされている場合
-// キャッシュからレスポンスを返す
-
-self.addEventListener('fetch', function (event) {
-  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin')
-    return;
-  event.respondWith(
-    caches.match(event.request)
-      .then(function (response) {
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      })
-  );
-});
-
-// Cache Storage にキャッシュされているサービスワーカーのkeyに変更があった場合
-// 新バージョンをインストール後、旧バージョンのキャッシュを削除する
-// (このファイルでは CACHE_NAME をkeyの値とみなし、変更を検知している)
-
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys => Promise.all(
-      keys.map(key => {
-        if (!CACHE_NAME.includes(key)) {
-          return caches.delete(key);
-        }
-      })
-    )).then(() => {
-      console.log(CACHE_NAME + "activated");
-    })
-  );
-});
