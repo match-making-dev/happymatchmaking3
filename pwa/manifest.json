@@ -3,7 +3,7 @@
   "name": "アーネストハーツL V1",
   "icons": [
     {
-      "src": "https://cdn.jsdelivr.net/gh/match-making-dev/happymatchmaking3@v0.88/pwa/android-chrome-192x192.png",
+      "src": "https://cdn.jsdelivr.net/gh/match-making-dev/happymatchmaking3@latest/pwa/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
